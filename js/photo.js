@@ -58,7 +58,7 @@ photo = {
             deal_count += 1;
             
 			//if (Math.random() > 0.5)
-            var src = 'https://testingcf.jsdelivr.net/npm/xhr93jn55@' + data[i].fname.split(/[@-]/)[0] + '/' + data[i].fname;
+            var src = 'https://testingcf.jsdelivr.net/npm/ximforntr@' + data[i].fname.split(/[@-]/)[0] + '/' + data[i].fname;
 			//else
 			//	var src = 'https://raw.githubusercontent.com/AmadeusImage/X/main/photos/' +data.fname[i];
             //imgNameWithPattern = data[i].split(' ')[1];
