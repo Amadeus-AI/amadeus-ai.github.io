@@ -59,7 +59,8 @@ photo = {
             
 			//if (Math.random() > 0.5)
             //var src = 'https://testingcf.jsdelivr.net/npm/ximforntr@' + data[i].fname.split(/[@-]/)[0] + '/' + data[i].fname;
-			var src = 'https://testingcf.jsdelivr.net/gh/peekdarkntr/X@main/' + data[i].fname;
+			//var src = 'https://testingcf.jsdelivr.net/gh/peekdarkntr/X@main/' + data[i].fname;
+            var src = 'https://ntr.peekdarkntr.workers.dev/' + data[i].fname;
             //else
 			//	var src = 'https://raw.githubusercontent.com/AmadeusImage/X/main/photos/' +data[i].fname;
             //imgNameWithPattern = data[i].split(' ')[1];
