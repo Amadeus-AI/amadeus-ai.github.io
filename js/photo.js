@@ -71,7 +71,9 @@ photo = {
             li += '<div class="card" style="width:' + imageWidth + 'px" >' +
                     '<div class="ImageInCard" style="height:'+ imageWidth * imageY / imageX + 'px">' +
                         '<a data-fancybox="gallery" href="' + src + '" data-caption="' + imgName + '">' +
-                        '<img data-src="' + src + ' " src="' + src + '" loading="lazy" data-retry="0" onerror="if(parseInt(this.getAttribute(\'data-retry\')) < 10) { this.setAttribute(\'data-retry\', parseInt(this.getAttribute(\'data-retry\')) + 1); this.src=\'' + src + '?'+ new Date().getTime()+'\'; }">' +
+                        '<img data-src="' + src + ' " src="' + src + 
+                        '" loading="lazy" data-retry="0" onerror="if(parseInt(this.getAttribute(\'data-retry\')) < 10) { var img = this; setTimeout(function(){ img.setAttribute(\'data-retry\', parseInt(img.getAttribute(\'data-retry\')) + 1); img.src=\'' + src + 
+                        '?'+ new Date().getTime()+'\'; }, 500); }">' +
                       '</a>' +
                     '</div>' +
                   '</div>';
